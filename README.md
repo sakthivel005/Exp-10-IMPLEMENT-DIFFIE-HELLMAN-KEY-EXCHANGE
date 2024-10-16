@@ -75,7 +75,9 @@ int main() {
     printf("Shared secret key for Bob (kb = x^b mod P): %lld\n", kb);
 
     if (ka == kb) {
-        printf("\nDiffie-Hellman Key Exchange successful. Both parties share the same key.\n");
+        printf("\nDiffie-Hellman Key Exchange successful. Both parties share the same key.\n");![Uploading Screenshot 2024-10-09 161143.png…]()
+![Screenshot 2024-10-16 114035](https://github.com/user-attachments/assets/b40600e9-3c52-4e32-8c63-300efc41ce54)
+
     } else {
         printf("\nError: The keys for Alice and Bob do not match.\n");
     }
@@ -84,7 +86,8 @@ int main() {
 }
 ```
 ## Output:
-![image](https://github.com/user-attachments/assets/8b83f5a2-273e-488d-b75b-11a9c20ea843)
+![Screenshot 2024-10-16 114629](https://github.com/user-attachments/assets/b32cc01b-71e6-453b-92dc-f6fc1b6a4d41)
+
 
 ## Result:
 Thus the Diffie-Hellman key exchange algorithm had been successfully implemented using C.
